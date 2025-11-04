@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "public": "public",
+  "functions": {
+    "api/generate_quote.py": {
+      "runtime": "python3.11"
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/generate_quote",
+      "dest": "/api/generate_quote.py"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/public/$1"
+    }
+  ]
+}
