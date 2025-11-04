@@ -8,10 +8,6 @@
   ],
   "routes": [
     {
-      "src": "/api/generate_quote",
-      "dest": "/api/generate_quote.py"
-    },
-    {
       "src": "/(.*)",
       "dest": "/public/$1"
     }
