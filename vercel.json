@@ -1,6 +1,5 @@
 {
   "version": 2,
-  "public": "public",
   "functions": {
     "api/generate_quote.py": {
       "runtime": "python3.11"
